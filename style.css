@@ -1,0 +1,179 @@
+/* Custom Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-img {
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h5 {
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.progress-bar {
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+footer img {
+    max-height: 50px;
+    object-fit: contain;
+}
+
+
+
+
+.services-stats-section {
+    background-color: #f8f9fa;
+}
+
+.services-stats-section .bi {
+    font-size: 1.8rem;
+}
+
+/* Optional hover effect */
+.services-stats-section h6 {
+    transition: color 0.3s ease;
+}
+.services-stats-section h6:hover {
+    color: #198754;
+}
+
+
+/* main-footer */
+.main-footer {
+    background-color: #14272B; /* Dark Teal Background */
+    color: #B2BABB; /* Light Gray Text */
+    padding: 30px 20px; /* Adjust padding as needed */
+    font-family: sans-serif; /* Or your preferred font */
+}
+
+/* footer-top */
+.footer-top {
+    border-bottom: 1px solid #294952; /* Slightly lighter border */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center the content */
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Space between logo and contact info */
+}
+
+/* footer-logo */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto; /* Push contact info to the right */
+}
+
+.footer-logo .icon {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF; /* White logo icon */
+}
+
+.footer-logo .logo-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF; /* White logo text */
+}
+
+/* contact-info */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+}
+
+.contact-info .icon {
+    width: 16px;
+    height: 16px;
+    fill: #B2BABB; /* Light Gray icons */
+}
+
+/* footer-bottom */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85em;
+    padding-top: 15px;
+}
+
+/* copyright */
+.copyright {
+    margin: 0;
+}
+
+/* social-links */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    color: #B2BABB;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-links .icon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor; /* Inherit color from the link */
+}
+
+/* page-indicator */
+.page-indicator {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3AB0A7; /* Teal accent color */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+}
